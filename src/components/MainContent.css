@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,400..700;1,400..700&display=swap');
+
+.main-container {
+  height: 500px;
+  width: 800px;
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    /* border: 2px solid white; */
+    margin-top: 50px;
+    margin-left: 58px;
+    padding: 0;
+  }
+  
+  .content {  
+    flex: 3;
+  }
+  
+  .content h1 {
+    font-family: "Ibarra Real Nova", serif;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 55px;
+  }
+
+  .line{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 250px;
+  }
+  .horizontal-line{
+    transform: rotateX('90deg');
+    height: 1px;
+    width: 150px;
+    transform: rotateX('90');
+  }
+  
+  .upper-list,.lower-list {
+    list-style: none;
+    margin-left: 20px;
+    padding: 0;
+  }
+  
+  .upper-list li {
+    font-family: "Ibarra Real Nova", serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 25px;   
+  }
+
+  .lower-list li {
+    font-family: "Ibarra Real Nova", serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 35px;   
+    opacity: 50%;
+  }
+
+  
+  .sidebar {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-size: 24px;
+    opacity: 0.1;
+  }
+  

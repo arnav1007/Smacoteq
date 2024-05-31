@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,400..700;1,400..700&display=swap');
+
+.header {
+    height: 50px;
+    width: 800px;
+    text-align: left;
+    /* border: 2px solid white; */
+    margin-top: 50px;
+    margin-left: 47px;
+  }
+
+  .logo-box{
+    display: flex;  
+  }
+  
+  img {
+    width: 31px;
+    height: 40px; 
+     
+  }
+  .logo-text{
+    font-family: "Ibarra Real Nova", serif;
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: 2px;
+    margin-left: 5px; 
+    margin-top: 5px;
+  }
+  
